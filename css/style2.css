@@ -1,0 +1,131 @@
+/* p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;} */
+
+body{
+    background-color:rgb(220, 198, 224)  ;
+    color: #FFF;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: red;
+}
+
+.border{
+    border: 2px ridge rgb(153, 0, 255);
+    max-width: 200px;
+    margin-left: 300px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+#container{
+    background-color:  #5e147d;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin: auto;
+    
+}
+
+#container-inner{
+    background-color: #7E349D; 
+    /* position: static; */
+    position: relative;
+    left: 95px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    margin:10px;
+    display: flex;
+    
+}
+
+#img1, #img2, #img3{
+    margin-top: 20px;
+}
+
+#img1{
+/*     display: block;
+ */
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#img2, #img3{
+    display: none;
+}
+
+#img1{
+    /* position: relative;
+    left: 30px;
+    right: 30px; */
+    
+   /*   position: fixed;
+     bottom: 0px;
+     right: 0px; */
+     position: sticky;
+     top: 10px;
+
+
+
+}
+
+.theDemo{
+    color: blueviolet;
+    text-align: left;
+    font-size: 25px;
+    width: 500px;
+    height: 100px;
+    background-color: white; 
+    /* position: absolute; */
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+a:link{
+    color:yellow;
+    display: block;
+    text-decoration: none;
+    /* background-color: #102770; */
+}
+
+a:visited{
+    color: #102770;
+}
+
+a:hover{
+    font-size: 35px;
+}
+
+a:active{
+    color:black; 
+}
+
+#thisLink{
+    display: block;
+    width: max-content;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #7E349D;
+    color: #F39C12;
+    background-color: #7E349D;
+    border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "css_scratch_till_advanced",
+  "version": "1.0.0",
+  "description": "This is my own code for it",
+  "main": "index1.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Monarene.git"
+  },
+  "author": "Michael Mekuleyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monarene/issues"
+  },
+  "homepage": "https://github.com/Monarene#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
