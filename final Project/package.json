@@ -1,0 +1,23 @@
+{
+  "name": "guitar_listens",
+  "version": "1.0.0",
+  "description": "This is one of the first few websites I have built",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Monarene"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Michael Mekuleyi",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}

@@ -132,16 +132,27 @@ img{
     width: 400px;
     height: 300px;
     background: radial-gradient(red, blue, dodgerblue);
-    margin: auto;
     margin-top: 20px;
-    transition: width 1s, height 1s;
-    transition-delay: 1s;
+/*     transition: width 1s, height 1s, visibility 1s;
+ *//*     transition-delay: 1s;
+ */    
+    transition: transform 2s, opacity 1s;
     transition-timing-function: cubic-bezier();
+    opacity:0.1; 
 }
 
+/* matrix(scaleX(), skewY(), 
+skewX(), scaleY(), translateX(),translateY()) */
+
 #thisOne:hover{
-    width: 80%;
-}
+    /* width: 80%;
+    visibility: visible; */
+    transform: translateX(30vw);
+    opacity: 1;
+    /* transform: rotate(360deg); */
+    /* transform: scale(1.2, 1.2); */
+    /* transform: translateX(30vw), scale(1.2, 1.2); */
+} 
 
 
 
